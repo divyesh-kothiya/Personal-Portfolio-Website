@@ -1,8 +1,7 @@
 {
     "/api": {
       "target": "https://www.divyeshkothiya.com/",
-      "secure": true,
-      "changeOrigin": true,
+      "secure": false,
       "pathRewrite": {
         "^/api": ""
       }
