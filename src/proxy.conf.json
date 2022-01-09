@@ -1,9 +1,7 @@
 {
-    "/api": {
+  "/api/*": {
       "target": "https://www.divyeshkothiya.com/",
       "secure": false,
-      "pathRewrite": {
-        "^/api": ""
-      }
+      "logLevel": "debug"
     }
   }
